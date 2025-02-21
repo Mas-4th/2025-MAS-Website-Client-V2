@@ -1,0 +1,37 @@
+{
+  "name": "APHRODITE",
+  "title": "디자인 실무 역량 개발 서비스, APHRODITE",
+  "thumbnail": "/assets/project/24_thumbnail_few.png",
+  "content": ["/assets/project/24_content_few.png"],
+  "tags": ["4기", "Web", "Android", "iOS"],
+  "team": ["박준원"],
+  "field": ["Web", "Android", "iOS"],
+  "generation": 4,
+  "program": [
+    "Figma",
+    "Next.js",
+    "TypeScript",
+    "TanStack",
+    "Query tailwind zustand",
+    "shadcn/ui",
+    "vitest",
+    "msw",
+    "Springboot",
+    "Kotlin",
+    "jOOQ",
+    "terraform",
+    "pinpoint"
+  ],
+  "retrospects": [
+    {
+      "name": "박준원",
+      "field": "PM",
+      "content": "대충 회고"
+    }
+    
+  ],
+  "webLink": "https://",
+  "deployLink": "https://",
+  "playStoreLink": "https://",
+  "description": "!"
+}

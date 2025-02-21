@@ -1,0 +1,37 @@
+{
+  "name": "편잇",
+  "title": "편의점 꿀정보를 한번에! 편잇",
+  "thumbnail": "/assets/project/24_thumbnail_showpot.png",
+  "content": ["/assets/project/24_content_showpot.png"],
+  "tags": ["4기", "Android", "iOS"],
+  "team": ["박준원"],
+  "field": ["Web", "Android", "iOS"],
+  "generation": 4,
+  "program": [
+    "Figma",
+    "Next.js",
+    "TypeScript",
+    "TanStack",
+    "Query tailwind zustand",
+    "shadcn/ui",
+    "vitest",
+    "msw",
+    "Springboot",
+    "Kotlin",
+    "jOOQ",
+    "terraform",
+    "pinpoint"
+  ],
+  "retrospects": [
+    {
+      "name": "박준원",
+      "field": "PM",
+      "content": "대충 회고"
+    }
+    
+  ],
+  "webLink": "https://",
+  "deployLink": "https://",
+  "playStoreLink": "https://",
+  "description": "!"
+}

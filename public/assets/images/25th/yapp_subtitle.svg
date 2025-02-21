@@ -1,0 +1,28 @@
+<svg viewBox="0 0 255 49" width="100%" height="auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter0_d" x="0" y="0" width="255" height="49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 127 0" 
+        result="hardAlpha"/>
+      <feOffset dy="0.225827"/>
+      <feGaussianBlur stdDeviation="0.564567"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  
+  <!-- 반응형 테두리 -->
+  <rect x="2%" y="2%" width="96%" height="96%" rx="23"
+        stroke="#E67E22" stroke-width="3"/>
+
+  <!-- 반응형 텍스트 -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        fill="#E67E22" filter="url(#filter0_d)"
+        style="font-family: 'Arial', sans-serif; font-size: clamp(14px, 2vw, 25px);">
+    Mas5th Recruiting
+  </text>
+</svg>

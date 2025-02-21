@@ -1,0 +1,42 @@
+{
+  "name": "HousePick",
+  "title": "부동산 도우미 서비스, HousePick",
+  "thumbnail": "/assets/project/24_thumbnail_trouble_painter.png",
+  "content": [
+    "/assets/project/24_content_trouble_painter.png",
+    "/assets/project/24_content_trouble_painter_2.png",
+    "/assets/project/24_content_trouble_painter_3.png",
+    "/assets/project/24_content_trouble_painter_4.png"
+  ],
+  "tags": ["4기", "Android", "iOS"],
+  "team": ["박준원"],
+  "field": ["Web", "Android", "iOS"],
+  "generation": 4,
+  "program": [
+    "Figma",
+    "Next.js",
+    "TypeScript",
+    "TanStack",
+    "Query tailwind zustand",
+    "shadcn/ui",
+    "vitest",
+    "msw",
+    "Springboot",
+    "Kotlin",
+    "jOOQ",
+    "terraform",
+    "pinpoint"
+  ],
+  "retrospects": [
+    {
+      "name": "박준원",
+      "field": "PM",
+      "content": "대충 회고"
+    }
+    
+  ],
+  "webLink": "https://",
+  "deployLink": "https://",
+  "playStoreLink": "https://",
+  "description": "!"
+}

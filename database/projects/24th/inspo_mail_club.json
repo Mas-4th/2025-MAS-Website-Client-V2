@@ -1,0 +1,32 @@
+{
+  "name": "QuestLink",
+  "title": "건강한 도파민, QuestLink",
+  "thumbnail": "/assets/project/24_thumbnail_inspo_mail_club.png",
+  "content": ["/assets/project/24_content_inspo_mail_club.png"],
+  "tags": ["4기", "Android", "iOS"],
+  "team": [
+    "박준원",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "field": ["Android", "iOS"],
+  "generation": 4,
+  "program": ["Figma", "Xcode", "Andriod Studio", "Vscode"],
+  "retrospects": [
+    {
+      "name": "박준원",
+      "field": "PM",
+      "content": "대충 회고"
+    }
+
+  ],
+  "deployLink": "https://apps.apple.com/kr/app/pokit-%ED%8F%AC%ED%82%B7-%EA%B0%84%ED%8E%B8-%EB%A7%81%ED%81%AC-%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B9%99-%EC%95%B1/id6514313808",
+  "playStoreLink": "https://play.google.com/store/apps/details?id=pokitmons.pokit&pcampaignid=web_share",
+  "description": "항상 아이디어는 반짝이지만 정말 이 아이디어가 필요할까?<br />이러한 고민을 하고 계신다면 저희 Think를 사용해보세요! 아이디어 검증 및 평가 단계를 AI가 해결해줘요! <br />당신의 반짝이는 아이디어가 세상을 바꿀 수 있기를 Think가 응원할게요"
+}

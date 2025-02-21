@@ -1,0 +1,37 @@
+{
+  "name": "스피킷",
+  "title": "발표를 압도적으로 편안하게, 스피킷",
+  "thumbnail": "/assets/project/24_thumbnail_wespot.png",
+  "content": ["/assets/project/24_content_wespot.png"],
+  "tags": ["4기", "Android", "iOS"],
+  "team": ["박준원"],
+  "field": ["Web", "Android", "iOS"],
+  "generation": 4,
+  "program": [
+    "Figma",
+    "Next.js",
+    "TypeScript",
+    "TanStack",
+    "Query tailwind zustand",
+    "shadcn/ui",
+    "vitest",
+    "msw",
+    "Springboot",
+    "Kotlin",
+    "jOOQ",
+    "terraform",
+    "pinpoint"
+  ],
+  "retrospects": [
+    {
+      "name": "박준원",
+      "field": "PM",
+      "content": "대충 회고"
+    }
+    
+  ],
+  "webLink": "https://",
+  "deployLink": "https://",
+  "playStoreLink": "https://",
+  "description": "!"
+}
