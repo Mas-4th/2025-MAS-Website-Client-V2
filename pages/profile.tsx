@@ -25,6 +25,49 @@ function Project({ projects }: ProjectProps) {
   const { ref: containerRef, trigger: triggerContainerScroll } = useSmoothScroll<HTMLDivElement>({ block: 'end' });
   const { ref: categoryRef, trigger: triggerCategoryScroll } = useSmoothScroll<HTMLDivElement>({ block: 'start' });
 
+  interface Profile {
+    name: string;
+    photoUrl: string;
+    description: string;
+  }
+  
+  const profiles: Record<GenerationType, Profile[]> = {
+    "1기": [
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" }
+    ],
+    "2기": [
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "", photoUrl: "/path/to/photo.jpg", description: "설명" }
+    ],
+    "3기": [
+      { name: "양은서", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "피은서", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "안민선", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "이경민", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "이서현", photoUrl: "/path/to/photo.jpg", description: "설명" }
+    ],
+    "4기": [
+      { name: "정희진", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "정현윤", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "박준원", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "박홍준", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "문지우", photoUrl: "/path/to/photo.jpg", description: "설명" },
+      { name: "한정훈", photoUrl: "/path/to/photo.jpg", description: "설명" }
+    ],
+    "5기": [
+    ]
+  };
+  
+
   useEffect(() => {
     setViewCardCount(INITIAL_CARD_COUNT);
     triggerCategoryScroll();
