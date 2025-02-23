@@ -6,5 +6,4 @@ export { default as RecruitOverview } from './RecruitOverview';
 export { default as RecruitSchedule } from './RecruitSchedule';
 export { default as SectionTemplate } from './SectionTemplate';
 export { default as SectionTitle } from './SectionTitle';
-export { default as ProfileField } from './ProfileField';
 
